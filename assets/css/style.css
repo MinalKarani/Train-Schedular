@@ -1,0 +1,42 @@
+/* Styling Trivia Game*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-image: url("../images/Train-Schedular.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.title{
+  background-color:rgb(75, 72, 72);
+  text-align: center;
+  font-style: bolder;
+  color:white;
+  border-color: darkblue;
+  border-style:solid;
+  border-width: 20px;
+
+}
+
+.card-header{
+  background-color:darkblue;
+  color: white;
+  padding-top: 10px;
+}
+
+.card{
+  border-color: darkblue;
+  margin-bottom: 10px;
+}
+
+td{
+  text-align:left;
+}
+
+#submit
+{
+  background-color:darkblue;
+}
